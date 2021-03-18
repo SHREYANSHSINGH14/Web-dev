@@ -1,0 +1,1 @@
+These are all the complete projects that I made while practising frontend wed dev .

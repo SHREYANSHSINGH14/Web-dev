@@ -1,0 +1,43 @@
+.container{
+    box-sizing: border-box;
+    box-shadow: 3px;
+}
+.container{
+    background-color: rgb(219, 219, 219);
+}
+h1,h2,h3{
+    text-align: center;
+    font-family: Roboto,'Times New Roman', Times, serif;
+
+}
+#first{
+    text-align: center;
+    border: 1px solid rgba(167, 167, 167, 0.747);
+    border-radius: 2px;
+    margin: 10px;
+}
+img{
+    clip-path: ellipse(46% 50% at 50% 50%);
+}
+.img{
+    text-align: center;
+    border:1px solid rgba(167, 167, 167, 0.747) ;
+    border-radius: 4px;
+    margin: 10px;
+}
+#box{
+    background-color: rgba(158, 156, 156, 0.705);
+    text-align: center;
+    margin: 6px;
+}
+#last{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(53, 182, 233);
+}
+a:hover{
+    /* text-decoration: solid rebeccapurple; */
+    color: rebeccapurple;
+}

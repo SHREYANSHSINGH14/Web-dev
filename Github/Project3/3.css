@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    box-shadow: 3px;
+    /* background-color: rgba(255, 255, 161, 0.822); */
+    /* color: rgba(102, 101, 101, 0.856); */
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 0;
+    background-color: rgba(255, 255, 128, 0.788);
+
+}
+.container{
+    border:2px solid grey;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+}
+.Personal{
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],select{
+    height: 30px;
+}
+.apply{
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.select{
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.essay{
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+button{
+    text-align: center;
+    padding: 12px 24px;
+    background-color: red;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}

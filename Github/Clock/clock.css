@@ -1,0 +1,19 @@
+#clock{
+    font-family: 'Bungee', cursive;
+    font-size: 50px;
+    /* margin: 120px;    */
+    padding-left: 40%;
+    padding-top: 250px;
+    /* color: ; */
+}
+body{
+    background-color:#100F10;
+    padding-bottom: 100%;
+}
+.clock{
+    color: rgba(#fff,0.67);
+}
+*{
+    box-sizing: border-box;
+    overflow-y: hidden;
+}

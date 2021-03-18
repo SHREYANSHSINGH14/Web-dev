@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clock.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Monoton&display=swap" rel="stylesheet">
+    <script src="clock.js"></script>
+</head>
+<body>
+    <div id="clock" class="clock">
+        <span id="hours">00</span>:<span id="minute">00</span>:<span id="second">00</span>&nbsp <span id="session">AM</span>
+        <script>
+            // setInterval(() => {
+            //     let a = new Date();
+            //     var h = a.getHours();
+            //     var m = a.getMinutes();
+            //     var s = a.getSeconds();
+            //     var session = "AM";
+            //     if(h==0){
+            //         h = 12;
+            //     }
+            //     if(h>12){
+            //         session = "PM";
+            //         h = h-12;
+            //     }
+            //     if(h<10){
+            //         h = "0" + h;
+            //     }
+            //     if(h>=10){
+            //         h = h;
+            //     }
+            //     if(m<10){
+            //         m = "0" + m;
+            //     }
+            //     if(m>=10){
+            //         m = m;
+            //     }
+            //     if(s<10){
+            //         s = "0" + s;
+            //     }
+            //     if(s>=10){
+            //         s = s;
+            //     }
+            //     let time = h + ":" + m + ":" +s + " " + session;
+            //     document.getElementById("clock").innerHTML = time;
+            // }, 1000);
+        </script>
+    </div>
+</body>
+</html>
